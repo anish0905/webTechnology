@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    list-style: none;  /*to remove list dots*/
+}
+
+#part2{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+margin-left: 450px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter
+        {
+            color: red;
+            font-size: 70px;
+        }
+        p::first-line{
+            color: aqua;
+        }
+
+        p::selection{
+            background-color: red;
+            color: yellow;
+        }
+        p::after{
+color: rgb(128, 0, 0);
+background-color: rgb(59, 59, 92);
+        }
+p{
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+    border: 2px solid black;
+    background-image: url("https://cdn.pixabay.com/photo/2023/08/16/23/47/annas-hummingbird-8195150_1280.jpg");
+    background-size: 540px 500px;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+li::marker
+{
+    color: blue;
+    font-size: 20px;
+}
+
+p::before{
+    content:"headlines =>"
+}
+
+p::after{
+    content: "=>thanku =>";
+    color: aqua;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+p{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum ea ab repellat voluptatem. Tempore soluta molestiae amet quidem obcaecati, impedit asperiores incidunt reprehenderit exercitationem hic.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iusto officiis vel fugiat dolorem labore obcaecati quas natus a minus voluptates asperiores earum tempora exercitationem repellat quia recusandae ut, totam saepe! Qui debitis minima sit cupiditate possimus. Asperiores modi pariatur voluptatem, molestiae, exercitationem nihil dolore harum eveniet aut, sequi fugit fuga suscipit laudantium. Reprehenderit blanditiis itaque aspernatur praesentium corrupti error repellat maiores numquam, aperiam, repudiandae laudantium architecto optio modi molestiae aut et. Optio, id enim qui fuga iste dolore nihil ducimus quaerat. Sed saepe tempora voluptas quam praesentium iste, facilis accusamus suscipit error odio impedit modi quae veritatis maiores expedita.
+    </p>
+
+
+    <ol>
+        <li>marker apply</li>
+        <li> market se</li>
+        <li>marker</li>
+        <li>marker</li>
+    </ol>
+</body>
+</html>

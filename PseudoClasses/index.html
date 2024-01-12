@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a:link{
+            color: rgb(25, 25, 155);
+        }
+
+        a:visited{
+            color: rgb(128, 128, 121);
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 20px dotted black;
+            transition-property: background-color,border ,width,height,border-radius;
+            transition-duration: 5s , 10s;
+            transition-timing-function: linear , linear;
+            transition-delay: 0.5s , 0s;
+            margin-left: 200px;
+        }
+        #box1:hover{
+            background-color: yellow;
+            border: 20px double red;
+            width: 800px;
+            height: 600px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+    <br>
+
+    <a href="www.Instagram1.com"> Instagram</a>
+<br>
+
+    <a href="https://www.tweeter.com">Tweeter</a>
+<br>
+    <a href="https://www.wikipedia.com">wikipedia</a>
+
+
+    <div id="box1">
+
+    </div>
+</body>
+</html>

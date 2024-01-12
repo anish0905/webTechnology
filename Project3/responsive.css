@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a maximum width for the content */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Default styles for navigation */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo img {
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+    }
+  
+    ul {
+      margin-top: 10px;
+      justify-content: center;
+    }
+  
+    ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+/* Heading styles */
+.heading {
+  text-align: center;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+}
+
+/* Image box styles */
+.imgbox {
+  text-align: center;
+}
+
+/* Article styles */
+article {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Make the website responsive */
+@media only screen and (max-width: 768px) {
+  /* Adjust the navigation styles for smaller screens */
+  nav ul {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the main section padding for smaller screens */
+  main {
+    padding: 10px;
+  }
+
+  /* Adjust the heading styles for smaller screens */
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  /* Adjust the image box styles for smaller screens */
+  .imgbox h3 {
+    font-size: 16px;
+  }
+
+  /* Adjust the article styles for smaller screens */
+  article {
+    padding: 10px;
+  }
+
+  /* Adjust the footer styles for smaller screens */
+  footer {
+    padding: 5px;
+  }
+}

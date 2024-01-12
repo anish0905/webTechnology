@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 60vh;
+            width: 70vw;
+            display: flex;
+            background-color: aqua;
+            border: 10px inset rgb(173, 140, 140);
+             margin: 200px;
+        }
+
+        #child1{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border: 5px solid white;
+            position: absolute;
+            z-index: 1;
+        }
+        #child2{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(0, 0, 0);
+            border: 5px solid rgb(124, 0, 0);
+            position: absolute;
+            z-index: 2;
+        }
+        #child3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(29, 114, 148);
+            border: 5px solid white;
+            position: absolute;
+            z-index: 5;
+        }
+        #child4{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(165, 50, 50);
+            border: 5px solid white;
+            position: absolute;
+            z-index: 2;
+        }
+        #child5{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(37, 6, 6);
+            border: 5px solid white;
+            position: absolute;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">child1</div>
+        <div id="child2">child2  </div>
+        <div id="child3">child3</div>
+        <div id="child4">child4</div>
+        <div id="child5">child5</div>
+    </div>
+
+</body>
+</html>

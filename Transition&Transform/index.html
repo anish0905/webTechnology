@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 100vw;
+            height: 100vh;
+background-image: url(./bac.jpg);
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+filter: grayscale(10%);
+filter: hue-rotate(400deg);
+filter: blur(5px);
+filter: saturate(100%);
+filter: sepia(10%);
+
+        }
+        div{
+            height: 500px;
+            width: 500px;
+            /* background-color: red; */
+            background-image: url(bac1.jpg);
+
+background-size: 500px 500px;
+
+            border: 10px inset yellow;
+            position: relative;
+            left: 200px;
+
+
+
+
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transition-delay: 5s;
+
+           /* transition: all 20s linear 1s; /* sort hand properties*/
+
+           color: wheat;
+           font-size: 30px;
+        }
+
+        div:hover{
+            background-color: aqua;
+            transform: rotate(270deg);
+            transform: scaleX(1.5);
+
+            transform: scaleY(0.5);
+
+            transform: scale(0.5,2);  /*sorthand property*/
+
+            transform: skewX(80deg);
+
+            transform: skewY(80deg);
+
+            transform: skew(80deg , 80deg);/*sorthand prop*/
+
+transform: translateX(100px);
+transform:translateY(200px) ;
+
+transform: translate(-200px,-100px);
+
+        }
+
+
+        #demo{
+
+display: flex;
+justify-content: center;
+align-items: center;
+/* position: relative;
+left: 80px;
+top: 200px; */
+
+/* position: absolute;
+left: 80px;
+top: 200px; */
+
+margin-left: 80px;
+margin-top: 200px;
+margin: 200px 0px 0px 80px;/*sorthand properties*/
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<main>
+
+</main>
+
+<div>
+<p id="demo">This is a iihih</p>
+</div>
+</body>
+</html>

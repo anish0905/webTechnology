@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine ;
+}
+div{
+    height: 20px;
+    width: 3px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    padding: 100px 585px 80px 98px;
+
+    border-top: 20px double greenyellow;
+
+    border-bottom-left-radius: 70%;
+
+    margin-top: 140px;
+    
+}
+
